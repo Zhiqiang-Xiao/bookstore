@@ -27,6 +27,7 @@ public class PageController {
         return "register";
     }
 
+
     @RequestMapping("/pay/success")
     public String paySuccess(){
         return "pay_success";

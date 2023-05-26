@@ -85,7 +85,6 @@
             <c:forEach items="${bookCategories}" var="bookCat">
                 <li id="${bookCat.cateId}"><a href="index/category/${bookCat.cateId}">${bookCat.name}</a></li>
             </c:forEach>
-
             <%--<li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                     文学 <span class="caret"></span>

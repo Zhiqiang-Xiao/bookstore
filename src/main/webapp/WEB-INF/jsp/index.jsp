@@ -11,7 +11,6 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${applicationScope.globalParameter.webName}</title>
-
     <base href="<%=basePath%>">
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>

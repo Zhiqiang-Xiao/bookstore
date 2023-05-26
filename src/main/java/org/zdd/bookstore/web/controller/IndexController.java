@@ -58,6 +58,10 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/index/merchantInformation")
+    public String merchantInformation(){
+        return "merchant_information";
+    }
 
     /**
      * 点击首页导航栏分类后来到这个handler

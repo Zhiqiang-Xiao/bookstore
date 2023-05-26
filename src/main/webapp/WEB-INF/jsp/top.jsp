@@ -8,6 +8,9 @@
     <div id="header_inner">
         <ul id="header_ul">
             <li class="header_li">
+                <a href="index/merchantInformation">商家信息</a>
+            </li>
+            <li class="header_li">
                 <shiro:user>
                     <div class="btn-group">
                         <button type="button" class="btn btn-default dropdown-toggle mybtn"
@@ -49,7 +52,6 @@
             <li class="header_li">
                 欢迎来到抖医云播书城，<a href="">首页</a>
             </li>
-
         </ul>
     </div>
 </div>
