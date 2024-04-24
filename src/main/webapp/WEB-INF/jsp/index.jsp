@@ -170,13 +170,6 @@
         </div>
     </div>
 
-    <div class="row" style="margin-top: 30px;">
-        <div style="display: flex;justify-content: center;align-items: center;">
-            <img src="../../img/mabooks1.jpg" alt="">
-            <img src="../../img/mabooks1.jpg" alt="">
-            <img src="../../img/mabooks1.jpg" alt="">
-        </div>
-    </div>
 </div>
 </div>
 

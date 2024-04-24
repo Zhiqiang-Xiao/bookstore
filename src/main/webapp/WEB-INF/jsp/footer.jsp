@@ -47,6 +47,11 @@
 <%--        <a href="">-----计算机161班-----</a>--%>
 <%--        <a href="">-----A105-----</a>--%>
 <%--    </div>--%>
+    <div style="display: flex;justify-content: center;align-items: center;width: 80%">
+        <img style="width: 27%;" src="img/mabooks3.jpg" alt="">
+        <img style="width: 27%;" src="img/mabooks2.jpg" alt="">
+        <img style="width: 27%;" src="img/mabooks1.jpg" alt="">
+    </div>
     <div class="rear">
         <dl>
 <%--            <dt>--%>
