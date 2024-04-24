@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.6.RELEASE</version>
+        <version>1.4.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -91,7 +91,6 @@
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
-            <version>8.5.37</version>
         </dependency>
 
         <!-- 邮件服务 -->
@@ -155,6 +154,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <mainClass>org.zdd.bookstore.BookstoreApplication</mainClass>
                     <fork>true</fork>
                 </configuration>
             </plugin>
@@ -163,15 +163,9 @@
             <resource>
                 <directory>src/main/webapp</directory>
                 <targetPath>META-INF/resources</targetPath>
-                <includes>
-                    <include>**/**</include>
-                </includes>
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/**</include>
-                </includes>
             </resource>
         </resources>
     </build>
